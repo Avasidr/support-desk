@@ -1,0 +1,46 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Node / Vue
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# PHP / Laravel
+backend/vendor/
+backend/storage/*.key
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/storage/logs/*
+backend/bootstrap/cache/*.php
+
+# Test / coverage
+coverage/
+.phpunit.result.cache
+
+# Docker local overrides
+compose.override.yaml
+docker-compose.override.yml
+
+# Temporary files
+*.tmp
+*.temp
